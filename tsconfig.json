@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./types", "node_modules/@types"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "skipLibCheck": false,
+    "sourceMap": false,
+    "strict": true,
+    "target": "es2019",
+    "lib": ["es2019"],
+    "resolveJsonModule": true,
+    "outDir": "./dist"
+  },
+  "include": ["index.ts"]
+}
